@@ -1,0 +1,30 @@
+site_name: ASEAN SMP Wiki
+site_url: https://atirut-w.github.io/asean-smp-wiki/
+
+repo_url: https://github.com/atirut-w/asean-smp-wiki/
+repo_name: atirut-w/asean-smp-wiki
+edit_uri: edit/main/docs/
+
+extra_css:
+  - css/asean.css
+
+theme:
+  name: material
+
+  icon:
+    repo: fontawesome/brands/github
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+
+  palette:
+    - media: "(prefers-color-scheme)"
+    - media: "(prefers-color-scheme: light)"
+      scheme: "default"
+      primary: "custom"
+      accent: "custom"
+    - media: "(prefers-color-scheme: dark)"
+      scheme: "slate"
+      primary: "custom"
+      accent: "custom"
